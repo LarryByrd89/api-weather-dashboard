@@ -1,17 +1,85 @@
-
-html, body, .container-fluid, .content-row {
-    height: 100%;
+body {
+    margin: 16;
 }
 
-.hide {
-    display: none;
+nav {
+    background: rgb(3, 205, 174);
+    color: rgb(15, 11, 11);
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    border-radius: 10px;
 }
 
-.city-btn:hover {
-    background-color: #03a87f;
+#container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 100%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px;
+}
+
+aside button {
+    background: black;
+    color: white;
+    margin: 10px 0;
+    border-radius: 4px;
     cursor: pointer;
 }
 
+#history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#history button {
+    background: rgb(4, 207, 186);
+    color: #000;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+#current {
+    border: 6px solid rgb(2, 66, 66);
+    padding: 30px;
+    margin: 0;
+    text-align: center; 
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#current h3, h5 {
+    margin: 30px;
+    font-size:large;
+}
+
+#forecast {
+    display: flex;
+}
+
 .card {
-    background-color: #b3ffed;
+    background: rgb(2, 68, 88);
+    color: white;
+    width: 18%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
 }
