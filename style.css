@@ -1,13 +1,16 @@
 body {
     margin: 16;
+    background-image: url("./images/clouds.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
 }
 
 nav {
-    background: rgb(3, 205, 174);
-    color: rgb(15, 11, 11);
+    background: rgb(61, 29, 220);
+    color: rgb(255, 255, 255);
     padding: 30px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 900;
     border-radius: 10px;
 }
