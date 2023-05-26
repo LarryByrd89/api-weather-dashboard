@@ -9,6 +9,8 @@
 ## Description
 This project is a weather dashboard using the OpenWeather API.
 
+You can view the project <a href = "https://larrybyrd89.github.io/api-weather-dashboard/">Here</a>
+
 ## The Task
 
 The challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS using the 5 Day Weather Forecast API.
